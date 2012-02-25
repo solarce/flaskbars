@@ -1,5 +1,5 @@
-Getting Started with Python, Flask, SQLAlchemy, JSON, JQuery, and Heroku
-========================================================================
+Getting Started with Python, Flask, SQLAlchemy, JSON, JQuery, Stackato and Heroku
+=================================================================================
 
 Run Locally
 -----------
@@ -24,6 +24,24 @@ Run Locally
 
     [http://localhost:5000](http://localhost:5000)
     
+
+Run on Stackato
+---------------
+
+1. Push the app
+
+        stackato push -n 
+
+2. Open the app in your browser
+
+        stackato open
+
+3. Verify that it works
+
+4. Switch the app to `PROD` mode
+
+        stackato env-add PROD True
+
 
 Run on Heroku
 -------------
