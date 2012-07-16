@@ -2,6 +2,6 @@ name: flaskbars
 framework:
   type: buildpack
 services:
-  postgresql: flaskbars-db
+  flaskbars-db: postgresql
 hooks:
   pre-running: python manage.py createDbSchema
