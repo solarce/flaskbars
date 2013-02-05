@@ -1,6 +1,6 @@
 name: flaskbars
 framework:
-  type: buildpack
+  type: python
 services:
   flaskbars-db: postgresql
 hooks:
